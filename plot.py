@@ -16,7 +16,7 @@ for i in range(n):
 fig = plt.figure()
 # Add a subplot
 ax = fig.add_subplot(111)
-poly = plt.Polygon([[p.x, p.y] for p in ps])
+poly = plt.Polygon([[p.x, p.y] for p in ps], facecolor="white", edgecolor="purple");
 ax.add_patch(poly)
 
 plt.xlim(0, 6)

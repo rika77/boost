@@ -10,3 +10,6 @@ $ g++ -I $HOME/boost_1_66_0 -Wall main.cpp > out.txt
 ```
 $ python plot.py < out.txt
 ```
+
+
+![Convex hull](convex_hull.png)
