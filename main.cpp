@@ -23,7 +23,7 @@ int main()
 
     convex_hull(mps, hull);
 
-    std::cout << bg::num_points(hull) << std::endl;c
+    std::cout << bg::num_points(hull) << std::endl;
 
     typedef typename boost::range_const_iterator<mpoints>::type iterator;
     for ( iterator it = boost::begin(hull) ; it != boost::end(hull) ; ++it ) {
