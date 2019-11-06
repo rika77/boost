@@ -1,3 +1,7 @@
+# What's this
+
+Implement Gift Wrapping convex hull algorithm using Boost.
+
 # Usage
 
 1. Compile with boost library, pouring output into out.txt
